@@ -27,6 +27,7 @@ export interface Subcategory {
 }
 
 export interface Category {
+  map: any
   _id: string
   name: string
   slug: string

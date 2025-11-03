@@ -1,8 +1,15 @@
 import getAllCategories from '@/apis/allCategories';
 import React from 'react'
-import SwiperCategory from '../SwiperCategory/SwiperCategory';
+
 import { Category } from '@/types/products.type';
+import SwiperCategory from '../SwiperCategory/SwiperCategory';
 const MainCategories=async ()=>{
+    type categories = {
+  _id: string;
+  name: string;
+  slug: string;
+  image: string;
+};
    const data:Category[]=await getAllCategories()
   
     return(

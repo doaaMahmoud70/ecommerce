@@ -8,8 +8,13 @@ import 'swiper/css';
 import categories from '@/app/categories/page';
 import { Category } from '@/types/products.type';
 import Image from 'next/image';
+type Props = {
+  categories: Category[]; // لاحظ [] ← يعني مصفوفة من الكاتيجوريز
+};
 
-const SwiperCategory=({categories}:{categories:Category})=>{
+// const SwiperCategory=({categories}:{categories:Category})=>{
+const SwiperCategory = ({ categories }: { categories: Category[] }) => {
+
    return(
     <div>
 <Swiper

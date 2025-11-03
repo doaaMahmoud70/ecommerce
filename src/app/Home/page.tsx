@@ -5,9 +5,11 @@ import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader,
 import { log } from "console"
 
 import { Product } from "@/types/products.type";
-import MainSlider from "../-components/Navbar/MainSlider/MainSlider";
+
+import HomeCard from "../-components/HomeCard/Page";
 import MainCategories from "../-components/MainCategories/MainCategories";
-import HomeCard from "../-components/Navbar/HomeCard/HomeCard";
+import MainSlider from "../-components/Navbar/MainSlider/MainSlider";
+
 
 
 

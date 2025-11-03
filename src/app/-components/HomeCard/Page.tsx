@@ -6,7 +6,7 @@ import Link from 'next/link'
 import getSingleProducts from '@/apis/singleProduct';
 import ProductDetails  from '@/app/ProductDetails/[id]/page'
 import { Button } from '@/components/ui/button';
-import MainSlider from '../MainSlider/MainSlider';
+import MainSlider from '../Navbar/MainSlider/MainSlider';
 import { Product } from '@/types/products.type';
 import Image from 'next/image';
 const HomeCard=({product}:{product:Product})=>{
